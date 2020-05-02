@@ -2,7 +2,7 @@
 C# Implementation of Get-LSASecrets
 
 ## Background
-Attempted to use Get-LSASecrets documented in the article[Use PowerShell to Decrypt LSA Secrets from the Registry](https://devblogs.microsoft.com/scripting/use-powershell-to-decrypt-lsa-secrets-from-the-registry/).  However, on my Windows 10 1909 VM, the script was immediately detected on download.  I decided to implement the solution in C#.  This was also a good opportunity to start learning C# 
+Attempted to use Get-LSASecrets documented in the article [Use PowerShell to Decrypt LSA Secrets from the Registry](https://devblogs.microsoft.com/scripting/use-powershell-to-decrypt-lsa-secrets-from-the-registry/).  However, on my Windows 10 1909 VM, the script was immediately detected on download.  I decided to implement the solution in C#.  This was also a good opportunity to start learning C# 
 
 ## Implementation
 - Project build configuration is set to build 32-bit binary to satisfy the 32-bit session requirement.  
