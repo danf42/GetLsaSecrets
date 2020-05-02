@@ -109,7 +109,7 @@ namespace utilities
                 throw new Exception("OpenProcessToken: " + Marshal.GetLastWin32Error());
             }
 
-            retVal = AdjustTokenPrivileges(htoken, false, ref tokPriv1Luid, 12, IntPtr.Zero, IntPtr.Zero);
+            retVal = AdjustTokenPrivileges(htoken, false, ref tokPriv1Luid, 0, IntPtr.Zero, IntPtr.Zero);
 
             if (!retVal)
             {
